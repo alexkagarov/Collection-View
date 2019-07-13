@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5F17439E22D9D8B100DD2D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F17439D22D9D8B100DD2D20 /* AppDelegate.swift */; };
-		5F1743A022D9D8B100DD2D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F17439F22D9D8B100DD2D20 /* ViewController.swift */; };
+		5F1743A022D9D8B100DD2D20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F17439F22D9D8B100DD2D20 /* MainViewController.swift */; };
 		5F1743A322D9D8B100DD2D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1743A122D9D8B100DD2D20 /* Main.storyboard */; };
 		5F1743A522D9D8B200DD2D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1743A422D9D8B200DD2D20 /* Assets.xcassets */; };
 		5F1743A822D9D8B200DD2D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1743A622D9D8B200DD2D20 /* LaunchScreen.storyboard */; };
+		5F1743B022D9D94800DD2D20 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1743AF22D9D94800DD2D20 /* CustomCollectionViewCell.swift */; };
+		5F1743B222DA0D7300DD2D20 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1743B122DA0D7200DD2D20 /* NetworkService.swift */; };
+		5F1743B422DA0DD000DD2D20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1743B322DA0DD000DD2D20 /* Constants.swift */; };
+		5F1743B622DA110D00DD2D20 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1743B522DA110D00DD2D20 /* ResponseModel.swift */; };
+		5F1743B822DA3CBD00DD2D20 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1743B722DA3CBD00DD2D20 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F17439A22D9D8B100DD2D20 /* Collection View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collection View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F17439D22D9D8B100DD2D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F17439F22D9D8B100DD2D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F17439F22D9D8B100DD2D20 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5F1743A222D9D8B100DD2D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F1743A422D9D8B200DD2D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F1743A722D9D8B200DD2D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1743A922D9D8B200DD2D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1743AF22D9D94800DD2D20 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F1743B122DA0D7200DD2D20 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5F1743B322DA0DD000DD2D20 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F1743B522DA110D00DD2D20 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		5F1743B722DA3CBD00DD2D20 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				5F17439D22D9D8B100DD2D20 /* AppDelegate.swift */,
-				5F17439F22D9D8B100DD2D20 /* ViewController.swift */,
+				5F1743AF22D9D94800DD2D20 /* CustomCollectionViewCell.swift */,
+				5F17439F22D9D8B100DD2D20 /* MainViewController.swift */,
 				5F1743A122D9D8B100DD2D20 /* Main.storyboard */,
 				5F1743A422D9D8B200DD2D20 /* Assets.xcassets */,
 				5F1743A622D9D8B200DD2D20 /* LaunchScreen.storyboard */,
 				5F1743A922D9D8B200DD2D20 /* Info.plist */,
+				5F1743B122DA0D7200DD2D20 /* NetworkService.swift */,
+				5F1743B322DA0DD000DD2D20 /* Constants.swift */,
+				5F1743B522DA110D00DD2D20 /* ResponseModel.swift */,
+				5F1743B722DA3CBD00DD2D20 /* Extensions.swift */,
 			);
 			path = "Collection View";
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1743A022D9D8B100DD2D20 /* ViewController.swift in Sources */,
+				5F1743A022D9D8B100DD2D20 /* MainViewController.swift in Sources */,
+				5F1743B022D9D94800DD2D20 /* CustomCollectionViewCell.swift in Sources */,
+				5F1743B222DA0D7300DD2D20 /* NetworkService.swift in Sources */,
+				5F1743B422DA0DD000DD2D20 /* Constants.swift in Sources */,
+				5F1743B622DA110D00DD2D20 /* ResponseModel.swift in Sources */,
 				5F17439E22D9D8B100DD2D20 /* AppDelegate.swift in Sources */,
+				5F1743B822DA3CBD00DD2D20 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V78KN6V8CS;
 				INFOPLIST_FILE = "Collection View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hialex.Collection-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V78KN6V8CS;
 				INFOPLIST_FILE = "Collection View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hialex.Collection-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
