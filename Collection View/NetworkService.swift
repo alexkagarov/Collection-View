@@ -9,8 +9,8 @@
 import Foundation
 
 class NetworkService {
-    func getData(completion: @escaping Constants.DownloadCompleted) {
-        guard let requestUrl = URL(string: Constants.url) else {return}
+    func getData(_ batchUrlString: String, completion: @escaping Constants.DownloadCompleted) {
+        guard let requestUrl = URL(string: batchUrlString) else {return}
         
         let task = URLSession.shared.dataTask(with: requestUrl) { (data,response,error) in
             
@@ -27,7 +27,6 @@ class NetworkService {
             catch let error {
                 print(error)
             }
-            
         }
         task.resume()
     }
